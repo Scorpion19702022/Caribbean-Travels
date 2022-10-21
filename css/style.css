@@ -145,6 +145,61 @@ body {
           transform: translateX(0%);
 }
 
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2em;
+  overflow: hidden;
+}
+.section:nth-child(even) .boxOne {
+  background-color: var(--mixblue-two);
+}
+.section:nth-child(even) .boxTwo {
+  display: none;
+}
+.section .boxOne {
+  position: absolute;
+  height: 50px;
+  width: 80%;
+  top: 8%;
+  left: 0;
+  background-color: var(--blue-strong);
+}
+.section .boxTwo {
+  position: absolute;
+  height: 50px;
+  width: 80%;
+  bottom: 0;
+  right: 0;
+  background-color: var(--blue-strong);
+}
+.section .titleBig {
+  position: absolute;
+  width: 20em;
+  left: 0%;
+  top: 100px;
+  background-color: var(--blue-verystrong);
+}
+.section .titleBig-title {
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 0.2em 1em;
+  color: var(--two-color);
+  text-align: right;
+  text-transform: uppercase;
+}
+
 main .sectionHome {
   position: relative;
   width: 100%;
@@ -207,60 +262,6 @@ main .home-text {
 }
 main .arrows {
   display: none;
-}
-main .section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "Montserrat", sans-serif;
-  padding-bottom: 2em;
-  overflow: hidden;
-}
-main .section:nth-child(even) .boxOne {
-  background-color: var(--mixblue-two);
-}
-main .section:nth-child(even) .boxTwo {
-  display: none;
-}
-main .section .boxOne {
-  position: absolute;
-  height: 50px;
-  width: 80%;
-  top: 8%;
-  left: 0;
-  background-color: var(--blue-strong);
-}
-main .section .boxTwo {
-  position: absolute;
-  height: 50px;
-  width: 80%;
-  bottom: 0;
-  right: 0;
-  background-color: var(--blue-strong);
-}
-main .section .titleBig {
-  position: absolute;
-  width: 20em;
-  left: 0%;
-  top: 100px;
-  background-color: var(--blue-verystrong);
-}
-main .section .titleBig-title {
-  font-size: 3rem;
-  font-weight: 400;
-  padding: 0.2em 1em;
-  color: var(--two-color);
-  text-align: right;
-  text-transform: uppercase;
 }
 main .cards {
   margin-top: 8em;
