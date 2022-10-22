@@ -56,7 +56,6 @@
 			cursor: pointer;
 			transform: translateX(-50%);
 			transition: background-color 0.5s ease-in-out;
-			// background-color: var(--two-color);
 			&:hover {
 				background-color: var(--blue-verystrong);
 			}
@@ -67,10 +66,8 @@
 				left: 50%;
 				top: 50%;
 				transform: translate(-50%, -50%);
-				// flex-direction: column;
 				text-align: center;
 				align-items: center;
-				// transform: translate(50%, 50%);
 				font-size: 3rem;
 				color: var(--one-color);
 			}
