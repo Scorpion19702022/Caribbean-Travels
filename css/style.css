@@ -162,10 +162,10 @@ body {
   padding-bottom: 2em;
   overflow: hidden;
 }
-.section:nth-child(even) .boxOne {
+.section:nth-child(odd) .boxOne {
   background-color: var(--mixblue-two);
 }
-.section:nth-child(even) .boxTwo {
+.section:nth-child(odd) .boxTwo {
   display: none;
 }
 .section .boxOne {

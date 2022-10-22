@@ -128,7 +128,6 @@ body {
 
 // -----   SECTION HOME   -----
 
-
 .section {
 	position: relative;
 	width: 100%;
@@ -139,7 +138,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	padding-bottom: 2em;
 	overflow: hidden;
-	&:nth-child(even) {
+	&:nth-child(odd) {
 		.boxOne {
 			background-color: var(--mixblue-two);
 		}
